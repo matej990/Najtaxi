@@ -12,6 +12,9 @@ class Taxikari extends CI_Controller {
 		$this->load->helper('form');
 		$this->load->helper('url');
 		$this->load->helper('typography');
+		$this->load->view('Template/head')  ;
+		$this->load->view('Template/nav')  ;
+		$this->load->view('Template/foot')  ;
 	}
 
 	public function index()
