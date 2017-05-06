@@ -1,6 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 ?>
 <body class="intro-header" >
+<center>
 <div class="container">
 <br></br>
         <div class="row">
@@ -37,5 +38,6 @@
         </div>
 
 </div>
+</center>
 <!-- /.container -->
 </body>
