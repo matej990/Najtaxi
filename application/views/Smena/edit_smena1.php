@@ -1,15 +1,13 @@
-﻿<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 ?>
-
-<header>
-        <div class="container">
-            <div style="margin-top: 70px" class="intro-text">
-                <div style="margin: 20px" class="intro-heading"><h2>Zoznam smien</h2></div>
-            </div>
-
-           
-              <h2 class="intro-text text-center">
+<header class="intro-header" >
+<div class="container">
+<br></br>
+        <div class="row">
+            <div class="box">
+               <div class="col-lg-12">
+                    
+                    <h2 class="intro-text text-center">
                         <strong>Editácia smeny</strong>
                     </h2>
                     <hr>
@@ -43,4 +41,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             </div>
         </div>
 
-           </header>
+</div>
+<!-- /.container -->
+</header>
+
+	
