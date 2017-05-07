@@ -1,6 +1,8 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?> 
+
+
  <head>
  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
 

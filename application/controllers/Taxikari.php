@@ -12,9 +12,7 @@ class Taxikari extends CI_Controller {
 		$this->load->helper('form');
 		$this->load->helper('url');
 		$this->load->helper('typography');
-		$this->load->view('Template/head')  ;
-		$this->load->view('Template/nav')  ;
-		$this->load->view('Template/foot')  ;
+
 	}
 
 	public function index()
@@ -28,10 +26,10 @@ class Taxikari extends CI_Controller {
 
         public function add() {
                $this->load->model('Model',NULL,TRUE);
-               $this->load->view('Template/head');
-			   $this->load->view('Template/nav');
+			
 			   $this->load->view('Taxikari/add_taxikari');
-			   $this->load->view('Template/foot');
+		
+        
     }
 
        public function adding_taxikar() {
@@ -72,10 +70,9 @@ class Taxikari extends CI_Controller {
 
          $data['query'] = $this->Model->get_taxikari($id);
 		if(count($data['query']) == 0) die('taxikari nenajdeny');
-		$this->load->view('Template/head');
-		$this->load->vew('Template/nav');
+
 	    $this->load->view('Taxikari/edit_taxikari', $data);
-	    $this->load->view('Template/foot');
+
     }
     
      public function editing_taxikar () 

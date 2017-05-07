@@ -48,5 +48,6 @@
             </div>
         </div>
     </div>
-</body><!-- /.container -->
+</body>
+<!-- /.container -->
 </header>
