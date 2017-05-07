@@ -25,24 +25,24 @@
     
 
     <!-- jQuery -->
-    <script src="assets/js/jquery.js"></script>
+    <script src="../assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 
 
 </html>
 
-<script src="/assets/js/jquery.js"></script>
+<script src="../assets/js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
 <script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
-    <script src="/assets/js/jquery.easing.min.js"></script>
-    <script src="/assets/js/jquery.fittext.js"></script>
-    <script src="/assets/js/wow.min.js"></script>
+    <script src="../assets/js/jquery.easing.min.js"></script>
+    <script src="../assets/js/jquery.fittext.js"></script>
+    <script src="../assets/js/wow.min.js"></script>
 
 
 <script>
@@ -51,9 +51,9 @@
         });
     </script>
     <!-- Custom Theme JavaScript -->
-    <script src="/assets/js/creative.js"></script>
-<script src="assets/js/bootstrap-datetimepicker.js"></script>
-<script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="../assets/js/creative.js"></script>
+<script src="../assets/js/bootstrap-datetimepicker.js"></script>
+<script src="../assets/js/bootstrap-datetimepicker.min.js"></script>
 <script type="text/javascript">
     $(".form_datetime").datetimepicker({format: 'yyyy-mm-dd hh:ii'});
 </script> 
